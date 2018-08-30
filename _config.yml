@@ -4,7 +4,7 @@ url: blockchain.streamdata.gallery
 tag: Blockchain
 markdown: kramdown
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
-github_user: streamdata-gallery-entities
+github_user: streamdata-gallery-topics
 github_repo: blockchain
 github_branch: master
 collections:

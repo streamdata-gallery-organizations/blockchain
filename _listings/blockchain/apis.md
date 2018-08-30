@@ -9,210 +9,217 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28138-bloc
 x-kinRank: "8"
 x-alexaRank: "3499"
 tags: Blockchain
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-29"
+modified: "2018-08-29"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/blockchain/master/_listings/blockchain/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Blockchain Info Ticker
-  x-api-slug: blockchain-info
+- name: Blockchain Info - Ticker
+  x-api-slug: ticker-get
   description: Returns a JSON object with the currency codes as keys. "15m" is the
     15 minutes delayed market price, "last" is the most recent market price, "symbol"
     is the currency symbol.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28138-blockchain-info.jpg
   humanURL: https://blockchain.info
-  baseURL: https://blockchain.info///ticker
-  tags: Blockchain,Ticker
+  baseURL: https://blockchain.info/
+  tags: Technology, SaaS, Marketplace, internet, Blockchains, API Provider, Profiles,
+    General Data, Relative Data, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/blockchain/master/_listings/blockchain/ticker-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/blockchain/master/_listings/blockchain/ticker-get-openapi.md
-- name: Blockchain Info Convert
-  x-api-slug: blockchain-info
+- name: Blockchain Info - Convert
+  x-api-slug: tobtc-get
   description: Convert x value in the provided currency to btc.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28138-blockchain-info.jpg
   humanURL: https://blockchain.info
-  baseURL: https://blockchain.info///tobtc
-  tags: Blockchain,Conversion
+  baseURL: https://blockchain.info/
+  tags: Technology, SaaS, Marketplace, internet, Blockchains, API Provider, Profiles,
+    General Data, Relative Data, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/blockchain/master/_listings/blockchain/tobtc-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/blockchain/master/_listings/blockchain/tobtc-get-openapi.md
-- name: Blockchain Info Stats
-  x-api-slug: blockchain-info
+- name: Blockchain Info - Stats
+  x-api-slug: stats-get
   description: This method can be used to get the data behind Blockchain.info's stats.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28138-blockchain-info.jpg
   humanURL: https://blockchain.info
-  baseURL: https://blockchain.info///stats
-  tags: Blockchain,Statistics
+  baseURL: https://blockchain.info/
+  tags: Technology, SaaS, Marketplace, internet, Blockchains, API Provider, Profiles,
+    General Data, Relative Data, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/blockchain/master/_listings/blockchain/stats-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/blockchain/master/_listings/blockchain/stats-get-openapi.md
-- name: Blockchain Info Pools
-  x-api-slug: blockchain-info
+- name: Blockchain Info - Pools
+  x-api-slug: pools-get
   description: This method can be used to get the data behind Blockchain.info's pools
     information.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28138-blockchain-info.jpg
   humanURL: https://blockchain.info
-  baseURL: https://blockchain.info///pools
-  tags: Blockchain,Pools
+  baseURL: https://blockchain.info/
+  tags: Technology, SaaS, Marketplace, internet, Blockchains, API Provider, Profiles,
+    General Data, Relative Data, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/blockchain/master/_listings/blockchain/pools-get-openapi.md
-- name: Blockchain Info Raw Block
-  x-api-slug: blockchain-info
+- name: Blockchain Info - Raw Block
+  x-api-slug: rawblockblock-hash-get
   description: Returns a single raw block.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28138-blockchain-info.jpg
   humanURL: https://blockchain.info
-  baseURL: https://blockchain.info///rawblock/{block_hash}
-  tags: Blockchain,Blocks
+  baseURL: https://blockchain.info/
+  tags: Technology, SaaS, Marketplace, internet, Blockchains, API Provider, Profiles,
+    General Data, Relative Data, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/blockchain/master/_listings/blockchain/rawblockblock-hash-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/blockchain/master/_listings/blockchain/rawblockblock-hash-get-openapi.md
-- name: Blockchain Info Raw Transaction
-  x-api-slug: blockchain-info
+- name: Blockchain Info - Raw Transaction
+  x-api-slug: rawtxtx-hash-get
   description: Returns a raw trasaction.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28138-blockchain-info.jpg
   humanURL: https://blockchain.info
-  baseURL: https://blockchain.info///rawtx/{tx_hash}
-  tags: Blockchain,Transactions
+  baseURL: https://blockchain.info/
+  tags: Technology, SaaS, Marketplace, internet, Blockchains, API Provider, Profiles,
+    General Data, Relative Data, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/blockchain/master/_listings/blockchain/rawtxtx-hash-get-openapi.md
-- name: Blockchain Info Chart Type
-  x-api-slug: blockchain-info
+- name: Blockchain Info - Chart Type
+  x-api-slug: blockchains-get
   description: Returns chart types.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28138-blockchain-info.jpg
   humanURL: https://blockchain.info
-  baseURL: https://blockchain.info//Blockchain,s
-  tags: Blockchain,Charts
+  baseURL: https://blockchain.info/
+  tags: Technology, SaaS, Marketplace, internet, Blockchains, API Provider, Profiles,
+    General Data, Relative Data, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/blockchain/master/_listings/blockchain/blockchains-get-openapi.md
-- name: Blockchain Info Block Height
-  x-api-slug: blockchain-info
+- name: Blockchain Info - Block Height
+  x-api-slug: blockheightblock-height-get
   description: Returns the height of block.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28138-blockchain-info.jpg
   humanURL: https://blockchain.info
-  baseURL: https://blockchain.info///block-height/{block_height}
-  tags: Blockchain,Height
+  baseURL: https://blockchain.info/
+  tags: Technology, SaaS, Marketplace, internet, Blockchains, API Provider, Profiles,
+    General Data, Relative Data, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/blockchain/master/_listings/blockchain/blockheightblock-height-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/blockchain/master/_listings/blockchain/blockheightblock-height-get-openapi.md
-- name: Blockchain Info Raw Address
-  x-api-slug: blockchain-info
+- name: Blockchain Info - Raw Address
+  x-api-slug: rawaddrbitcoin-address-get
   description: Returns a single blockchain address.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28138-blockchain-info.jpg
   humanURL: https://blockchain.info
-  baseURL: https://blockchain.info///rawaddr/{bitcoin_address}
-  tags: Blockchain,Addresses
+  baseURL: https://blockchain.info/
+  tags: Technology, SaaS, Marketplace, internet, Blockchains, API Provider, Profiles,
+    General Data, Relative Data, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/blockchain/master/_listings/blockchain/rawaddrbitcoin-address-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/blockchain/master/_listings/blockchain/rawaddrbitcoin-address-get-openapi.md
-- name: Blockchain Info Multi Adress
-  x-api-slug: blockchain-info
+- name: Blockchain Info - Multi Adress
+  x-api-slug: multiaddr-get
   description: Returns multiple addresses
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28138-blockchain-info.jpg
   humanURL: https://blockchain.info
-  baseURL: https://blockchain.info///multiaddr
-  tags: Blockchain,Addresses
+  baseURL: https://blockchain.info/
+  tags: Technology, SaaS, Marketplace, internet, Blockchains, API Provider, Profiles,
+    General Data, Relative Data, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/blockchain/master/_listings/blockchain/multiaddr-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/blockchain/master/_listings/blockchain/multiaddr-get-openapi.md
-- name: Blockchain Info Unspent
-  x-api-slug: blockchain-info
+- name: Blockchain Info - Unspent
+  x-api-slug: unspent-get
   description: Unspent output.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28138-blockchain-info.jpg
   humanURL: https://blockchain.info
-  baseURL: https://blockchain.info///unspent
-  tags: Blockchain,Output
+  baseURL: https://blockchain.info/
+  tags: Technology, SaaS, Marketplace, internet, Blockchains, API Provider, Profiles,
+    General Data, Relative Data, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/blockchain/master/_listings/blockchain/unspent-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/blockchain/master/_listings/blockchain/unspent-get-openapi.md
-- name: Blockchain Info Balance
-  x-api-slug: blockchain-info
+- name: Blockchain Info - Balance
+  x-api-slug: balance-get
   description: Returns current balance
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28138-blockchain-info.jpg
   humanURL: https://blockchain.info
-  baseURL: https://blockchain.info///balance
-  tags: Blockchain,Balance
+  baseURL: https://blockchain.info/
+  tags: Technology, SaaS, Marketplace, internet, Blockchains, API Provider, Profiles,
+    General Data, Relative Data, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/blockchain/master/_listings/blockchain/balance-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/blockchain/master/_listings/blockchain/balance-get-openapi.md
-- name: Blockchain Info Latest Block
-  x-api-slug: blockchain-info
+- name: Blockchain Info - Latest Block
+  x-api-slug: latestblock-get
   description: Gets the latest block.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28138-blockchain-info.jpg
   humanURL: https://blockchain.info
-  baseURL: https://blockchain.info///latestblock
-  tags: Blockchain,Latest
+  baseURL: https://blockchain.info/
+  tags: Technology, SaaS, Marketplace, internet, Blockchains, API Provider, Profiles,
+    General Data, Relative Data, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/blockchain/master/_listings/blockchain/latestblock-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/blockchain/master/_listings/blockchain/latestblock-get-openapi.md
-- name: Blockchain Info Unconfirmed Transactions
-  x-api-slug: blockchain-info
+- name: Blockchain Info - Unconfirmed Transactions
+  x-api-slug: unconfirmedtransactions-get
   description: Returns unconfirmed transactions.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28138-blockchain-info.jpg
   humanURL: https://blockchain.info
-  baseURL: https://blockchain.info///unconfirmed-transactions
-  tags: Blockchain,Transactions
+  baseURL: https://blockchain.info/
+  tags: Technology, SaaS, Marketplace, internet, Blockchains, API Provider, Profiles,
+    General Data, Relative Data, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/blockchain/master/_listings/blockchain/unconfirmedtransactions-get-openapi.md
-- name: Blockchain Info Blocks for One Day
-  x-api-slug: blockchain-info
+- name: Blockchain Info - Blocks for One Day
+  x-api-slug: blockstime-in-milliseconds-get
   description: Returns the blocks for one day by the millisecond
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28138-blockchain-info.jpg
   humanURL: https://blockchain.info
-  baseURL: https://blockchain.info///blocks/{time_in_milliseconds}
-  tags: Blockchain
+  baseURL: https://blockchain.info/
+  tags: Technology, SaaS, Marketplace, internet, Blockchains, API Provider, Profiles,
+    General Data, Relative Data, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/blockchain/master/_listings/blockchain/blockstime-in-milliseconds-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/blockchain/master/_listings/blockchain/blockstime-in-milliseconds-get-openapi.md
-- name: Blockchain Info Blocks by Pool
-  x-api-slug: blockchain-info
+- name: Blockchain Info - Blocks by Pool
+  x-api-slug: blockspool-name-get
   description: Returns the blocks for one pool.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28138-blockchain-info.jpg
   humanURL: https://blockchain.info
-  baseURL: https://blockchain.info///blocks/{pool_name}
-  tags: Blockchain,Pools
+  baseURL: https://blockchain.info/
+  tags: Technology, SaaS, Marketplace, internet, Blockchains, API Provider, Profiles,
+    General Data, Relative Data, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/blockchain/master/_listings/blockchain/blockspool-name-get-openapi.md
-- name: Blockchain Info
-  x-api-slug: blockchain-info
-  description: With the largest bitcoin wallet platform in the world, Blockchains
-    software has powered over 100M transactions and empowered users in 130 countries
-    across the globe to transact quickly and without costly intermediaries. We also
-    offers tools for develo...
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28138-blockchain-info.jpg
-  humanURL: https://blockchain.info
-  baseURL: https://blockchain.info/
-  tags: Blockchain
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/blockchain/master/_listings/blockchain/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://blizzard.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://blockchain.stack.network
 - type: x-crunchbase
   url: https://crunchbase.com/organization/blockchain-info
 - type: x-documentation
